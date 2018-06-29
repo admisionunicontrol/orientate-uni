@@ -40,7 +40,7 @@ firebase.auth().onAuthStateChanged(function(user){
     })
   }else {
     console.log('No logueado');
-    showAdminUI(email,false);
+    showAdminUI();
   }
 });
 
