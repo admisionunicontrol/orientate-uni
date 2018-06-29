@@ -54,6 +54,7 @@ firebase.auth().onAuthStateChanged(function(user){
   }else{
     // User is signed out
     detenerLectura();
+    showUI();
   }
 });
 
